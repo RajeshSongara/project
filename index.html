@@ -12,7 +12,7 @@
 <body>
     <section class="header">
         <div class="logo">
-            <i class="ri-menu-line icon icon-0"></i>
+            <i class="ri-menu-line icon icon-0 menu"></i>
             <h2>S<samp>R</samp></h2>
         </div>
         <div class="search--notifacation--profile">
@@ -37,7 +37,7 @@
         </div>
     </section>
     <section class="main">
-        <div class="siderbar">
+        <div class="siderbar ">
             <ul class="sidebar--items">
                 <li>
                     <a href="#" id="active--line">
@@ -55,7 +55,7 @@
                 <li>
                     <a href="#">
                         <span class="icon icon-3"><i class="ri-user-line"></i></span>
-                        <span class="sidebar--items">Reliable Docter</span>
+                        <span class="sidebar--items" style="white-space: nowrap;">Reliable Docter</span>
                     </a>
                 </li>
                 <li>
@@ -163,9 +163,185 @@
                     </div>
                 </div>
             </div>
+            <div class="doctors">
+                <div class="title">
+                    <h2 class="section--title">Doctors</h2>
+                    <div class="doctors--right--btns">
+                        <select name="datwe" id="date" class="dropdown  doctors--filter">
+                            <option>Fliter</option>
+                            <option value="free">Free</option>
+                            <option value="Schedule">Schedule</option>
+                        </select>
+                        <button class="add"><i class="ri-add-line">Add Doctor</i></button>
+                    </div>
+                </div>
+                <div class="doctors--cards">
+                    <a href="#" class="docter--card">
+                        <div class="img--box--cover">
+                            <div class="img--box">
+                                <img src="images/1.jpg" alt="">
+                            </div>
+                        </div>
+                        <p class="free">free</p>
+                    </a>
+                    <a href="#" class="docter--card">
+                        <div class="img--box--cover">
+                            <div class="img--box">
+                                <img src="images/2.jpg" alt="">
+                            </div>
+                        </div>
+                        <p class="free">Free</p>
+                    </a>
+                    <a href="#" class="docter--card">
+                        <div class="img--box--cover">
+                            <div class="img--box">
+                                <img src="images/4.jpg" alt="">
+                            </div>
+                        </div>
+                        <p class="Schedule">Schedule</p>
+                    </a>
+                    <a href="#" class="docter--card">
+                        <div class="img--box--cover">
+                            <div class="img--box">
+                                <img src="images/5.jpg" alt="">
+                            </div>
+                        </div>
+                        <p class="free">Free</p>
+                    </a>
+                    <a href="#" class="docter--card">
+                        <div class="img--box--cover">
+                            <div class="img--box">
+                                <img src="images/bg1.jpg" alt="">
+                            </div>
+                        </div>
+                        <p class="Schedule">Schedule</p>
+                    </a>
+                    <a href="#" class="docter--card">
+                        <div class="img--box--cover">
+                            <div class="img--box">
+                                <img src="images/img-3.png" alt="">
+                            </div>
+                        </div>
+                        <p class="Schedule">Schedule</p>
+                    </a>
+                    <a href="#" class="docter--card">
+                        <div class="img--box--cover">
+                            <div class="img--box">
+                                <img src="images/img-1.jpg" alt="">
+                            </div>
+                        </div>
+                        <p class="Schedule">Schedule</p>
+                    </a>
+                </div>
+            </div>
+            <div class="recent--patients">
+                <div class="title">
+                    <h2 class="section--title">Recent Patients</h2>
+                    <button class="add"><i class="ri-add-line edit">Add Doctor</i></button>
+                </div>
+                <div class="table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Data in</th>
+                                <th>Gender</th>
+                                <th>Age</th>
+                                <th>Status</th>
+                                <th>Settings</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Mmmmm</td>
+                                <td>30/07/2022</td>
+                                <td>Male</td>
+                                <td>61kg</td>
+                                <td class="pending">Pending</td>
+                                <td><samp><i class="ri-edit-line edit"></i><i class="ri-delete-bin-line delete"></i></samp></td>
+                            </tr>
+                            <thead>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Data in</th>
+                                    <th>Gender</th>
+                                    <th>Age</th>
+                                    <th>Status</th>
+                                    <th>Settings</th>
+                                </tr>
+                            </thead>
+                            <thead>
+                           
+                            </thead>
+                            <tr>
+                                <td>Mmmmm</td>
+                                <td>30/07/2022</td>
+                                <td>Male</td>
+                                <td>61kg</td>
+                                <td class="confrom">Confirmed</td>
+                                <td><samp><i class="ri-edit-line edit"></i><i class="ri-delete-bin-line  delete"></i></samp></td>
+                            </tr>
+                            <thead>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Data in</th>
+                                    <th>Gender</th>
+                                    <th>Age</th>
+                                    <th>Status</th>
+                                    <th>Settings</th>
+                                </tr>
+                            </thead>
+                            <tr>
+                                <td>Mmmmm</td>
+                                <td>30/07/2022</td>
+                                <td>Male</td>
+                                <td>61kg</td>
+                                <td class="rejected">Rejectd</td>
+                                <td><samp><i class="ri-edit-line edit"></i><i class="ri-delete-bin-line  delete"></i></samp></td>
+                            </tr>
+                            <thead>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Data in</th>
+                                    <th>Gender</th>
+                                    <th>Age</th>
+                                    <th>Status</th>
+                                    <th>Settings</th>
+                                </tr>
+                            </thead>
+                            <tr>
+                                <td>Mmmmm</td>
+                                <td>30/07/2022</td>
+                                <td>Male</td>
+                                <td>61kg</td>
+                                <td class="pending">Pending</td>
+                                <td><samp><i class="ri-edit-line edit"></i><i class="ri-delete-bin-line  delete"></i></samp></td>
+                            </tr>
+                            <thead>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Data in</th>
+                                    <th>Gender</th>
+                                    <th>Age</th>
+                                    <th>Status</th>
+                                    <th>Settings</th>
+                                </tr>
+                            </thead>
+                            <tr>
+                                <td>Mmmmm</td>
+                                <td>30/07/2022</td>
+                                <td>Male</td>
+                                <td>61kg</td>
+                                <td class="pending">Pending</td>
+                                <td><samp><i class="ri-edit-line edit"></i><i class="ri-delete-bin-line  delete"></i></samp></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
         </div>
     </section>
 </body>
-<link rel="stylesheet" href="js/main.js">
+<script src="js/main.js"></script>
 
 </html>
